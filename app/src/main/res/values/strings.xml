@@ -8,5 +8,6 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
+    <string name="menu_todo">Todo</string>
     <string name="menu_paint">Paint</string>
 </resources>
