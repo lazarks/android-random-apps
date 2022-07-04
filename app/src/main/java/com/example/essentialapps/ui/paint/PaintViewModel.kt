@@ -1,5 +1,10 @@
 package com.example.essentialapps.ui.paint
 
+import android.content.Context
+import android.graphics.Color
+import android.graphics.Path
+import android.util.AttributeSet
+import android.view.ViewGroup
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
