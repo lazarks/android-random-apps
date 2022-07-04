@@ -19,27 +19,35 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"
-            android:background="@drawable/paint_color_red"/>
+            android:background="@drawable/paint_color_background"
+            android:backgroundTint="@color/red"
+            android:backgroundTintMode="multiply"/>
         <ImageButton
             android:id="@+id/blueColor"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"
-            android:background="@drawable/paint_color_blue" />
+            android:background="@drawable/paint_color_background"
+            android:backgroundTint="@color/purple_700"
+            android:backgroundTintMode="multiply" />
 
         <ImageButton
             android:id="@+id/blackColor"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"
-            android:background="@drawable/paint_color_black" />
+            android:background="@drawable/paint_color_background"
+            android:backgroundTint="@color/black"
+            android:backgroundTintMode="multiply" />
 
         <ImageButton
             android:id="@+id/whiteColor"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"
-            android:background="@drawable/paint_color_white" />
+            android:background="@drawable/paint_color_background"
+            android:backgroundTint="@color/white"
+            android:backgroundTintMode="multiply" />
     </LinearLayout>
 
     <RelativeLayout
